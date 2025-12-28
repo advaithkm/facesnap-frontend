@@ -20,7 +20,7 @@ void main() async {
   // Initialize Supabase
   await Supabase.initialize(
     url: 'https://ewxtinumbrzmfmepvlrv.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV3eHRpbnVtYnJ6bWZtZXB2bHJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQxMDYxNDYsImV4cCI6MjA1OTY4MjE0Nn0.gh443XRI0o4VbPEAUB8mXZ0-yQo5iP1c41k958RpukQ',
+    anonKey: '',
   );
 
   // Initialize camera
